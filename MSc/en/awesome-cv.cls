@@ -78,9 +78,8 @@
 % Needed to use icons from font-awesome
 \RequirePackage{fontawesome5}
 \RequirePackage{accsupp}
-\newcommand{\homedir}{/home/jad}
 \setmainfont{SourceSans3}[
-  Path=\homedir/.local/share/fonts/,
+  Path=./fonts/,
   Extension=.otf,
   UprightFont=*-Regular,
   ItalicFont=*-It,
@@ -90,7 +89,7 @@
   FontFace={l}{it}{Font=*-LightIt},
 ]
 \setsansfont{SourceSans3}[
-  Path=\homedir/.local/share/fonts/,
+  Path=./fonts/,
   Extension=.otf,
   UprightFont=*-Regular,
   ItalicFont=*-It,
