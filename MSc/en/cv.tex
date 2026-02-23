@@ -23,12 +23,19 @@
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
+% Tighten spacing between sections
+\renewcommand{\acvSectionTopSkip}{1mm}
+\renewcommand{\acvSectionContentTopSkip}{1mm}
+
+% Prevent LaTeX from stretching vertical spaces to fill the page
+\raggedbottom
+
 
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
 %-------------------------------------------------------------------------------
 \name{Jad}{Chamseddine}
-\position{DUAL DEGREE STUDENT IN MATHEMATICS \& COMPUTER SCIENCE}
+\position{FINAL-YEAR DUAL DEGREE STUDENT IN MATHEMATICS \& COMPUTER SCIENCE}
 \address{92170 Vanves, France}
 
 \mobile{(+33) 7 82 52 14 40}
@@ -51,11 +58,13 @@
 %	CV/RESUME CONTENT
 %-------------------------------------------------------------------------------
 \input{sections/education.tex}
+\vspace{-4mm}
 \input{sections/research.tex}
 \vspace{-4mm}
 \input{sections/experience.tex}
 \vspace{-4mm}
 \input{sections/skills.tex}
+\vspace{0mm}
 \input{sections/interests.tex}
 
 
